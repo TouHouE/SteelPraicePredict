@@ -1,0 +1,239 @@
+Title:
+	validate_model_new_2.csv
+	performance_model_new_2.csv
+===========
+Info:
+initial:
+max is 2019-01-01  
+horizon is 365 days
+period is 1days
+
+============
+
+Title:
+	validate_model_new_3.csv
+	performance_model_new_3.csv
+===========
+Info:
+initial is 2017-01-01 ~ 2001-01-01
+model is : model_new_3.json
+
+============
+
+Title:
+	validate_model_new_4.csv
+	performance_model_new_4.csv
+===========
+Info:
+validated by model_new_4.json
+initial range is from 2001-01-01 to 2017-01-01
+
+============
+
+Title:
+	validate_model_new_5.csv
+	performance_model_new_5.csv
+===========
+Info:
+validated by model_new_5.json
+
+============
+
+Title:
+	validate_model_new_6.csv
+	performance_model_new_6.csv
+===========
+Info:
+predicted by model_new_6.json
+
+============
+
+Title:
+	validate_model_new_7.csv
+	performance_model_new_7.csv
+===========
+Info:
+validated by model_new_7.json
+
+============
+
+Title:
+	validate_model_new_8.csv
+	performance_model_new_8.csv
+===========
+Info:
+validated by model_new_8.json
+
+============
+
+Title:
+	validate_model_new_9.csv
+	performance_model_new_9.csv
+===========
+Info:
+validated by model_new_9.json
+
+============
+
+Title:
+	validate_model_new_10.csv
+	performance_model_new_10.csv
+===========
+Info:
+validated by model_new_10.json
+
+============
+
+Title:
+	validate_model_new_11.csv
+	performance_model_new_11.csv
+===========
+Info:
+validated by model_new_11.json
+
+============
+
+Title:
+	validate_model_new_12.csv
+	performance_model_new_12.csv
+===========
+Info:
+validated by model_new_12.json
+
+============
+
+Title:
+	validate_model_new_15.csv
+	performance_model_new_15.csv
+===========
+Info:
+validated by model_new_15.json
+
+============
+
+Title:
+	validate_model_new_16.csv
+	performance_model_new_16.csv
+===========
+Info:
+validated by mdoel_new_16.json
+
+============
+
+Title:
+	validate_model_new_17.csv
+	performance_model_new_17.csv
+===========
+Info:
+validated by model_new_17.json
+
+============
+
+Title:
+	validate_model_new_18.csv
+	performance_model_new_18.csv
+===========
+Info:
+validated by model_new_18.json
+
+============
+
+Title:
+	validate_model_new_19.csv
+	performance_model_new_19.csv
+===========
+Info:
+validated by model_new_19.json
+
+============
+
+Title:
+	validate_model_new_20.csv
+	performance_model_new_20.csv
+===========
+Info:
+validated by model_new_20.json
+
+============
+
+Title:
+	validate_model_new_21.csv
+	performance_model_new_21.csv
+===========
+Info:
+validated by model_new_21.json
+
+============
+
+Title:
+	validate_model_new_22.csv
+	performance_model_new_22.csv
+===========
+Info:
+validated by model_new_22.json
+============
+
+Title:
+	validate_model_new_23.csv
+	performance_model_new_23.csv
+===========
+Info:
+validated by model_new_23.json
+============
+
+Title:
+	validate_model_new_24.csv
+	performance_model_new_24.csv
+===========
+Info:
+validated by model_new_24.json
+============
+
+Title:
+	validate_model_new_25.csv
+	performance_model_new_25.csv
+===========
+Info:
+validated by model_new_25.json
+============
+
+Title:
+	validate_model_new_26.csv
+	performance_model_new_26.csv
+===========
+Info:
+validated by model_new_26.json
+============
+
+Title:
+	validate_model_new_27.csv
+	performance_model_new_27.csv
+===========
+Info:
+validated by model_new_27.json
+============
+
+Title:
+	validate_model_new_28.csv
+	performance_model_new_28.csv
+===========
+Info:
+validated by model_new_28.json
+============
+
+Title:
+	validate_model_new_30.csv
+	performance_model_new_30.csv
+===========
+Info:
+validated by model_new_30.json
+============
+
+Title:
+	validate_model_new_29.csv
+	performance_model_new_29.csv
+===========
+Info:
+validated by model_new_29.json
+============
+

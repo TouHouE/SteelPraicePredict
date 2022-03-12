@@ -1,0 +1,978 @@
+Title:TSTI_1
+===========
+Info:
+Data Source:	TSTI_train.csv
+Split Date:	2017-01-03 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+============
+
+Title:TSTI_2
+===========
+Info:
+Data Source:	TSTI_train.csv
+Split Date:	2017-01-03 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.36
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+============
+
+Title:TSTI_3
+===========
+Info:
+Data Source:	TSTI_train.csv
+Split Date:	2019-12-31 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+============
+
+Title:TSTI_4
+===========
+Info:
+Data Source:	TSTI_train.csv
+Split Date:	2019-12-31 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.36
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+============
+
+Title:TSTI_5
+===========
+Info:
+Data Source:	TSTI_train.csv
+Split Date:	2019-12-31 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.37
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+============
+
+Title:TSTI_6
+===========
+Info:
+Data Source:	TSTI_train_regressor.csv
+Split Date:	2019-12-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High		prior_scale = 10
+ Open		prior_scale = 10
+ Low		prior_scale = 10
+
+============
+
+Title:TSTI_7
+===========
+Info:
+Data Source:	TSTI_train_regressor.csv
+Split Date:	2019-12-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.44999999999999996
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High		prior_scale = 10
+ Open		prior_scale = 10
+ Low		prior_scale = 10
+
+============
+
+Title:SRRC_1
+===========
+Info:
+Data Source:	SRRC_train_regressor.csv
+Split Date:	2018-12-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High		prior_scale = 10
+ Open		prior_scale = 10
+ Low		prior_scale = 10
+
+============
+
+Title:SRRC_2
+===========
+Info:
+Data Source:	SRRC_train_regressor.csv
+Split Date:	2018-12-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.44999999999999996
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High		prior_scale = 10
+ Open		prior_scale = 10
+ Low		prior_scale = 10
+
+============
+
+Title:djusst_daily_1
+===========
+Info:
+Data Source:	djusst_train_regressor.csv
+Split Date:	2021-10-19 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_daily_2
+===========
+Info:
+Data Source:	djusst_train_regressor.csv
+Split Date:	2021-10-19 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.44999999999999996
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_daily_1
+===========
+Info:
+Data Source:	taiwan_train_regressor.csv
+Split Date:	2021-10-18 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_daily_2
+===========
+Info:
+Data Source:	taiwan_train_regressor.csv
+Split Date:	2021-10-18 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.44999999999999996
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_daily_1
+===========
+Info:
+Data Source:	steel_train_regressor.csv
+Split Date:	2021-10-18 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_daily_2
+===========
+Info:
+Data Source:	steel_train_regressor.csv
+Split Date:	2021-10-18 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_daily_1
+===========
+Info:
+Data Source:	steel/steel_train_daily_regressor.csv
+Split Date:	2021-10-04 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_daily_2
+===========
+Info:
+Data Source:	steel/steel_train_daily_regressor.csv
+Split Date:	2021-10-04 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_monthly_1
+===========
+Info:
+Data Source:	steel/steel_train_monthly_regressor.csv
+Split Date:	2021-04-30 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_monthly_2
+===========
+Info:
+Data Source:	steel/steel_train_monthly_regressor.csv
+Split Date:	2021-04-30 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_monthly_1
+===========
+Info:
+Data Source:	djusst/djusst_train_monthly_regressor.csv
+Split Date:	2021-04-30 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_monthly_2
+===========
+Info:
+Data Source:	djusst/djusst_train_monthly_regressor.csv
+Split Date:	2021-04-30 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_daily_1
+===========
+Info:
+Data Source:	djusst/djusst_train_daily_regressor.csv
+Split Date:	2021-10-05 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_daily_2
+===========
+Info:
+Data Source:	djusst/djusst_train_daily_regressor.csv
+Split Date:	2021-10-05 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_daily_1
+===========
+Info:
+Data Source:	taiwan/taiwan_train_daily_regressor.csv
+Split Date:	2021-10-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_daily_2
+===========
+Info:
+Data Source:	taiwan/taiwan_train_daily_regressor.csv
+Split Date:	2021-10-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_monthly_1
+===========
+Info:
+Data Source:	taiwan/taiwan_train_monthly_regressor.csv
+Split Date:	2021-04-30 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_monthly_2
+===========
+Info:
+Data Source:	taiwan/taiwan_train_monthly_regressor.csv
+Split Date:	2021-04-30 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_monthly.csv
+===========
+Info:
+Data Source:	taiwan/taiwan_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_monthly.csv
+===========
+Info:
+Data Source:	taiwan/taiwan_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_monthly1
+===========
+Info:
+Data Source:	taiwan/taiwan_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_monthly2
+===========
+Info:
+Data Source:	taiwan/taiwan_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_train_monthly1
+===========
+Info:
+Data Source:	djusst/djusst_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_train_monthly2
+===========
+Info:
+Data Source:	djusst/djusst_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_monthly1
+===========
+Info:
+Data Source:	steel/steel_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_monthly2
+===========
+Info:
+Data Source:	steel/steel_train_monthly.csv
+Split Date:	2021-10-31 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_daily1
+===========
+Info:
+Data Source:	steel/steel_train_daily.csv
+Split Date:	2021-10-20 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_daily2
+===========
+Info:
+Data Source:	steel/steel_train_daily.csv
+Split Date:	2021-10-20 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_train_daily1
+===========
+Info:
+Data Source:	djusst/djusst_train_daily.csv
+Split Date:	2021-11-18 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_train_daily2
+===========
+Info:
+Data Source:	djusst/djusst_train_daily.csv
+Split Date:	2021-11-18 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_daily1
+===========
+Info:
+Data Source:	taiwan/taiwan_train_daily.csv
+Split Date:	2021-11-17 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_daily2
+===========
+Info:
+Data Source:	taiwan/taiwan_train_daily.csv
+Split Date:	2021-11-17 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_weekly1
+===========
+Info:
+Data Source:	taiwan/taiwan_train_weekly.csv
+Split Date:	2021-11-14 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:taiwan_train_weekly2
+===========
+Info:
+Data Source:	taiwan/taiwan_train_weekly.csv
+Split Date:	2021-11-14 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_train_weekly1
+===========
+Info:
+Data Source:	djusst/djusst_train_weekly.csv
+Split Date:	2021-11-14 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:djusst_train_weekly2
+===========
+Info:
+Data Source:	djusst/djusst_train_weekly.csv
+Split Date:	2021-11-14 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_weekly1
+===========
+Info:
+Data Source:	steel/steel_train_weekly.csv
+Split Date:	2021-10-17 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_weekly2
+===========
+Info:
+Data Source:	steel/steel_train_weekly.csv
+Split Date:	2021-10-17 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	1.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+
+Title:steel_train_weekly1
+===========
+Info:
+Data Source:	steel/steel_train_weekly.csv
+Split Date:	2019-12-22 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.85
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ c_high		prior_scale = 10
+ c_low		prior_scale = 10
+ c_open		prior_scale = 10
+
+============
+

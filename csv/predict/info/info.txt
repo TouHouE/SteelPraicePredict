@@ -1,0 +1,123 @@
+Title:predict_model_new_1.csv
+===========
+Info:
+
+It is predictd by "model_new_1.json"
+
+============
+
+Title:predict_model_new_3.csv
+===========
+Info:
+Using "model_new_3.json"
+
+============
+
+Title:predict_model_new_4.csv
+===========
+Info:
+predicted by model_new_4.json
+
+============
+
+Title:predict_model_new_5.csv
+===========
+Info:
+predicted by model_new_5.json
+
+
+============
+
+Title:predict_model_new_8.csv
+===========
+Info:
+predicted by mdoel_new_8.json
+
+============
+
+Title:predict_model_new_8.csv
+===========
+Info:
+Doing data preprocessing
+predicted by model_new_8.json
+
+============
+
+Title:predict_model_new_10.csv
+===========
+Info:
+predicted by model_new_10.json
+
+============
+
+Title:predict_model_new_15.csv
+===========
+Info:
+predicted by model_new_15.json
+
+============
+
+Title:predict_model_new_15.csv
+===========
+Info:
+predicted by mdoel_new_15.json
+no preprocessing
+
+============
+
+Title:predict_model_new_16.csv
+===========
+Info:
+predicted by model_new_16.json
+
+============
+
+Title:predict_model_new_18.csv
+===========
+Info:
+predicted by model_new_18.json
+
+============
+
+Title:predict_model_new_21.csv
+===========
+Info:
+predicted by model_new_21.json
+
+============
+
+Title:predict_model_new_21.csv
+===========
+Info:
+predicted by model_new_21.json
+
+============
+
+Title:predict_model_new_22.csv
+===========
+Info:
+predicted by new_model_22.json
+
+============
+
+Title:predict_model_new_23.csv
+===========
+Info:
+predicted by model_new_23.json
+
+============
+
+Title:predict_model_new_24.csv
+===========
+Info:
+predicted by model_new_24.json
+
+============
+
+Title:predict_model_new_25.csv
+===========
+Info:
+predicted by model_new_25.json
+
+============
+

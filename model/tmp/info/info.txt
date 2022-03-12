@@ -1,0 +1,781 @@
+Title:model_2021_08_12
+===========
+Info:
+
+set :param changepoints_priror_scale=0.7
+
+============
+
+Title:model_new_1
+===========
+Info:
+
+Using new regressor: High
+Using new regressor: Low
+Using new regressor: Open
+
+============
+
+Title:model_new_2
+===========
+Info:
+changepoint_range is 0.9
+n_changepoints is 50
+changepoint_prior_scale is 0.1
+
+using regressor "High"
+using regressor "Low"
+using regressor "Open"
+
+Training Data is : fb_djusst_data.csv
+Date is 2010-01-01 ~ 2020-12-01 by monthly
+
+============
+
+Title:model_new_3
+===========
+Info:
+Training Data is : 20_years_djusst.csv
+Date range is : 2001-01-01 ~ 2019-01-01
+
+Param part:
+changepoint_range = 0.9
+n_changepoints = 50
+changepoint_prior_scale = 0.1
+
+Regressor pard:
+High
+Low
+Open
+PS: not norm
+
+============
+
+Title:model_new_4.json
+===========
+Info:
+
+add new variable 'Volume'
+
+data source: 20_years_djusst.csv
+index from 0 to 216
+
+predicte target is 'Close'
+
+changepoint_range=0.9
+n_changepoints=50
+changepoint_prior_scale=0.1
+
+============
+
+Title:model_new_5
+===========
+Info:
+changepoint_range=0.5
+n_changepoints=50
+changepoint_prior_scale=0.1
+
+variable are:
+	1) time
+	2) High
+	3) Low
+	4) Open
+	5) Volume
+
+Data source: 20_years_djusst.csv
+index from 0 to 216
+
+============
+
+Title:model_new_6
+===========
+Info:
+changepoint_prior_scale = 0.1
+
+Regressor part:
+	High: prior_scale=1.5
+	Low: prior_scale=1.5
+	Open: prior_scale=2
+	Volume: prior_scale=0.5
+	Adj Close: prior_scale=3
+
+============
+
+Title:model_new_7.json
+===========
+Info:
+Scale variable without y(Close)
+
+============
+
+Title:model_new_8
+===========
+Info:
+Prophet part:
+	changepoint_range=0.6
+	changepoint_prior_scale=0.06
+Regressor part:
+	Hight: prior_scale=1.5
+	Low:   prior_scale=1.5
+	Open   prior_scale=2
+	Volume:prior_scale=0.5
+	Adj Close: prior_scale=3
+
+============
+
+Title:model_new_9
+===========
+Info:
+Prophet part
+	changepoint_range=0.1
+	changepoint_prior_scale=0.1
+Regressor part
+	High	prior_scale=1.5
+	Low		prior_scale=1.5
+	Open	prior_scale=2
+	Volume	prior_scale=0.5
+	Adj Close prior_scale=3
+
+============
+
+Title:model_new_10
+===========
+Info:
+Warning!!!!! can't using Any regressor from downolad data
+
+Delete Regressor part
+
+changepoint_range=1
+n_changepoints=50
+changepoint_prior_scale=0.1
+
+Using MinMaxScaler
+
+============
+
+Title:model_new_11
+===========
+Info:
+Including new Prophet argument
+
+seasonality_prior_scale=5
+
+============
+
+Title:model_new_12
+===========
+Info:
+Prophet argument part:
+
+changepoint_range=1
+n_changepoints=50
+changepoint_prior_scale=0.35
+seasonality_prior_scale=5
+
+============
+
+Title:model_new_13
+===========
+Info:
+Prophet part:
+changepoint_range=1
+n_changepoints=100
+changepoint_prior_scale=0.1
+seasonality_prior_scale=1.01
+
+Trend is go up
+
+============
+
+Title:model_new_14
+===========
+Info:
+Prophet arguments part:
+	changepoint_range=1
+	n_changepoints=100
+	changepoint_prior_scale=0.1
+	seasonality_prior_scale=1.01
+	interval_width=0.5
+
+============
+
+Title:model_new_15
+===========
+Info:
+Re using regressor
+but all regressor are two years ago
+
+Prophet part:
+	changepoint_range=1
+	n_changepoints=100
+	changepoint_prior_scale=0.1
+	seasonality_prior_scale=1.01
+	interval_width=0.5
+
+Regressor part
+	'High', prior_scale=1.5
+	'Low', prior_scale=1.5
+	'Open', prior_scale=2
+	'Volume', prior_scale=0.5
+
+Data Source : regressor_data.csv
+
+split years is :2018-01-01
+
+============
+
+Title:model_new_16.json
+===========
+Info:
+Prophet part:
+	changepoint_range=1
+	n_changepoints=100
+	changepoint_prior_scale=0.1
+	seasonality_prior_scale=1.01
+	interval_width=0.5
+
+Regressor part:
+	High, 2 years ago, prior_scale=1.5
+	Low, 2 years ago, prior_sccale=1.5
+	Open, 2 years ago, prior_scale=2
+	Volume, 2 years ago, prior_scale=0.5
+	Close, 2 years ago, prior_scale=10
+
+Data source is new_regressor_data.csv
+split date is 2018-01-01
+Using Scaler
+
+============
+
+Title:model_new_17
+===========
+Info:
+Prophet part:
+	changepoint_range=1
+	n_changepoints=100
+	changepoint_prior_scacle=0.1
+	seasonality_prior_scale=3.01
+	interval_width=0.5
+
+Regressor part:
+	All regressor are 2 years data
+
+	'High_2y', prior_scale=6
+	'Low_2y', prior_scale=1.5
+	'Open_2y', prior_scale=6
+	'Volume_2y', prior_scale=4
+	'Close_2y'
+
+Data Source is: new_regressor_data.csv
+Split date index: 180
+
+============
+
+Title:model_new_18
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	Open_2y                -0.583824
+High_2y                -0.624055
+Low_2y                 -0.647507
+Adj Close              -0.599096
+Volume_2y              -0.680562
+Close_2y               -0.599096
+ds           2018-01-01 00:00:00
+y                     293.649994
+Name: 180, dtype: object
+
+Prophet argument part:
+ changepoint_range = 1
+ n_changepoints = 100
+ changepoint_prior_scale = 0.1
+ seasonality_prior = 3.01
+ interval_width = 0.5
+
+Regressor part:
+ High_2y	
+ prior_scale = 6 
+ Low_2y	prior_scale = 1.5 
+ Open_2y	prior_scale = 6 
+ Volume_2y	prior_scale = 4 
+ Close_2y	prior_scale = 5
+============
+
+Title:model_new_19
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+
+Prophet argument part:
+ changepoint_range = 0.9
+ n_changepoints = 100
+ changepoint_prior_scale = 0.09
+ seasonality_prior = 4
+ interval_width = 0.5
+
+Regressor part:
+ High_2y	prior_scale = 6
+ Low_2y	prior_scale = 1.5
+ Open_2y	prior_scale = 6
+ Volume_2y	prior_scale = 4
+ Close_2y	prior_scale = 5
+
+============
+
+Title:model_new_20
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	0.9
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.09
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 6
+ Low_2y		prior_scale = 1.5
+ Open_2y		prior_scale = 6
+ Volume_2y		prior_scale = 4
+ Close_2y		prior_scale = 2
+
+============
+
+Title:model_new_21
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	0.9
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.3
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 6
+ Low_2y		prior_scale = 1.5
+ Open_2y		prior_scale = 6
+ Volume_2y		prior_scale = 4
+ Close_2y		prior_scale = 2
+
+============
+
+Title:model_new_22
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	0.9
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.3
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_23
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.3
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_24
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_25
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.35
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_26
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.36
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_27
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.37
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_28
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.38
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_29
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.39
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_30
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.4
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_31
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.41000000000000003
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_32
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.42000000000000004
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_33
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.43000000000000005
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_34
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.44000000000000006
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_35
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.45000000000000007
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_36
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.4600000000000001
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_37
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.4700000000000001
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_38
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.4800000000000001
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
+Title:model_new_39
+===========
+Info:
+Data Source:	new_regressor_data.csv
+Split Date:	2018-01-01 00:00:00
+Using MinMaxScaler
+
+Prophet argument part:
+ changepoint_range 	= 	1
+ n_changepoints 	= 	100
+ changepoint_prior_scale 	= 	0.4900000000000001
+ seasonality_prior 	= 	4
+ interval_width 	= 	0.5
+
+Regressor part:
+ High_2y		prior_scale = 10
+ Low_2y		prior_scale = 10
+ Open_2y		prior_scale = 10
+ Volume_2y		prior_scale = 10
+ Close_2y		prior_scale = 10
+
+============
+
